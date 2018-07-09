@@ -1,0 +1,33 @@
+{
+  "name": "node-registration",
+  "version": "1.0.0",
+  "description": "Building a node resgistration webapp",
+  "main": "index.js",
+  "dependencies": {
+    
+  },
+  "devDependencies": {
+    "mocha": "^5.2.0",
+    "should": "^13.2.1",
+    "grunt-contrib-jshint": "^1.1.0",
+    "grunt-contrib-watch": "^1.1.0",
+    "grunt": "^1.0.3"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/YadavAnurag/node-app-patterns.git"
+  },
+  "keywords": [
+    "registration",
+    "node-resgistration"
+  ],
+  "author": "Anurag Yadav",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/YadavAnurag/node-app-patterns/issues"
+  },
+  "homepage": "https://github.com/YadavAnurag/node-app-patterns#readme"
+}
