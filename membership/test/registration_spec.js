@@ -1,8 +1,18 @@
+var Registration = require('../lib/registration');
+
 describe('Registration', function(){
 
   //happy path
   describe('a valid application', function(){
-    it('is successfull');
+    var regResult = {};
+
+    before(async ()=>{
+      regResult = Registration.applyForMembership({email: 'anu@gmail.com'});
+    });
+
+    it('is successfull', function(){
+      regResult.success.should.be.equal(true);
+    });
     it('creates a user');
     it('creates a log entry');
     it("sets the user's status to approved");
